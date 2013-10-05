@@ -1,0 +1,155 @@
+{
+   "WhatsAppViaWhatsHare": {
+      "description": "Option to share content on WhatsApp using WhatsHare",
+      "message": "su WhatsApp"
+   },
+   "calloutInstructions": {
+      "description": "The instructions shown when hovering on the question mark after the 'scan QR code' sentence in the configuration page",
+      "message": "Avvia WhatsHare sul tuo dispositivo Android e premi il simbolo '+' accanto a \"Ricevi da\". \u003Cbr /\u003E\u003Cbr /\u003EPoi, segui le istruzioni."
+   },
+   "calloutTitle": {
+      "description": "Title of the instructions in the pop-up callout message that explains how to pair a new device",
+      "message": "\u003Cstrong\u003ECome si associa\u003C/strong\u003E"
+   },
+   "caseSensitiveMessage": {
+      "description": "Displayed below the code input form to warn the user about case-sensitivity",
+      "message": "Fai attenzione alle \u003Cb\u003Emaiuscole/minuscole\u003C/b\u003E: \u003Ccode\u003ECoDicE\u003C/code\u003E \u003Cb\u003Enon \u00E8\u003C/b\u003E uguale a \u003Ccode\u003EcODiCe\u003C/code\u003E"
+   },
+   "changePairedDevice": {
+      "description": "Displayed as last link, takes to WhatsHare config page",
+      "message": "Associa un altro dispositivo"
+   },
+   "codeFieldMsg": {
+      "description": "The grayed-out hint shown in the code input field",
+      "message": "Inserisci il codice"
+   },
+   "configure": {
+      "description": "The message that is displayed as long as the extension has not been configured",
+      "message": "Configura WhatsHare per condividere con Android"
+   },
+   "desc": {
+      "description": "A short description of what the app does",
+      "message": "Condividi link e testo con gli amici usando i tuoi dispositivi Android"
+   },
+   "image": {
+      "description": "Displayed on the popup menu when sharing a link to an image",
+      "message": "l'immagine"
+   },
+   "instructionsAfter": {
+      "description": "The part of instructions that comes after the hoverable question mark",
+      "message": "e inserisci il codice ottenuto nel campo di testo pi\u00F9 in basso in questa pagina."
+   },
+   "instructionsBefore": {
+      "description": "The instructions shown on top of the extension's configuration page",
+      "message": "Usa $APP_LINK$ per fotografare questo QR code ",
+      "placeholders": {
+         "app_link": {
+            "content": "\u003Ca href=\"https://play.google.com/store/apps/details?id=it.mb.whatshare\"\u003El'app Android\u003C/a\u003E"
+         }
+      }
+   },
+   "invalidCode": {
+      "description": "Error message shown when the user types a code with invalid characters",
+      "message": "il codice deve contenere 5 caratteri alfanumerici (numeri o lettere)"
+   },
+   "link": {
+      "description": "Displayed on the popup menu when sharing a link",
+      "message": "il link"
+   },
+   "noPaired": {
+      "description": "Displayed on top of the QR code in the conf page when no devices are currently configured",
+      "message": "Nessun dispositivo Android associato."
+   },
+   "notificationErrorMessage": {
+      "description": "Content of the notification shown on share error",
+      "message": "Qualcosa \u00E8 andato storto mentre si cercava di condividere tramite WhatsHare"
+   },
+   "notificationErrorTitle": {
+      "description": "Title of the notification shown on share errors",
+      "message": "Condivisione con $DEVICE$ fallita",
+      "placeholders": {
+         "device": {
+            "content": "$1",
+            "example": "Samsung GT-I9000"
+         }
+      }
+   },
+   "notificationSuccessMessage": {
+      "description": "Content of the notification shown on share success",
+      "message": "Condivisione riuscita tramite WhatsHare"
+   },
+   "notificationSuccessTitle": {
+      "description": "Title of the notification shown on share success",
+      "message": "Condiviso con $DEVICE$!",
+      "placeholders": {
+         "device": {
+            "content": "$1",
+            "example": "Samsung GT-I9000"
+         }
+      }
+   },
+   "onPairingSuccess": {
+      "description": "Displayed when a pairing operation is successful",
+      "message": "\u003Cp\u003EPuoi iniziare ad usare WhatsHare per condividere testo o link a pagine web o immagini facendo click col tasto destro in qualsiasi pagina web e scegliendo WhatsHare dal menu.\u003Cp\u003EPoi, scegli il contatto col quale condividere il contenuto dal tuo dispositivo Android associato."
+   },
+   "page": {
+      "description": "Displayed on the popup menu when sharing a link to a page",
+      "message": "la pagina"
+   },
+   "pairFail": {
+      "description": "Message displayed when a pairing operation completes unsuccessfully",
+      "message": "Impossibile associare $DEVICE$, fa' un'altra foto e prova di nuovo!",
+      "placeholders": {
+         "device": {
+            "content": "$1",
+            "example": "Samsung GT-I9000"
+         }
+      }
+   },
+   "pairNew": {
+      "description": "Message displayed on top of the configuration page when a device is already paired",
+      "message": "$DEVICE$ \u00E8 gi\u00E0 associato; associare un altro dispositivo \u003Cb\u003Erimuover\u00E0 l'associazione corrente\u003C/b\u003E.",
+      "placeholders": {
+         "device": {
+            "content": "$1",
+            "example": "Samsung GT-I9000"
+         }
+      }
+   },
+   "pairSuccess": {
+      "description": "Message displayed when a pairing operation completes successfully",
+      "message": "$DEVICE$ \u00E8 stato associato!",
+      "placeholders": {
+         "device": {
+            "content": "$1",
+            "example": "Samsung GT-I9000"
+         }
+      }
+   },
+   "rightClickPopup": {
+      "description": "The options available in the extension's popup menu (text, link, page)",
+      "message": "Condividi $WHAT$ $VIA$",
+      "placeholders": {
+         "via": {
+            "content": "$2",
+            "example": "on WhatsApp"
+         },
+         "what": {
+            "content": "$1",
+            "example": "link"
+         }
+      }
+   },
+   "selection": {
+      "description": "Displayed on the popup menu when sharing a piece of text",
+      "message": "il testo selezionato"
+   },
+   "sendButtonLabel": {
+      "description": "The label of the code submit button",
+      "message": "Invia"
+   },
+   "tryAgain": {
+      "description": "Displayed when goo.gl/code can't be reached or is not a URL created by WhatsHare",
+      "message": "codice non valido; l'hai scritto correttamente? Se s\u00EC, prova a fare un'altra foto dopo aver ricaricato questa pagina!"
+   }
+}

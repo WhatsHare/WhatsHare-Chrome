@@ -1,0 +1,37 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="jquery.min.js"></script>
+	<script src="jquery.qrcode.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="logo"><img src="whatsharelogo.png" alt="logo" height="100px" />WhatsHare</div>
+	<div id="message">
+		<span id="devices"></span><br /><br />
+		<span id="instructions">
+			<a href="#" class="callout">
+				<div>
+					<img class="arrow" src="arrow.gif" />
+					<span id="calloutTitle"></span>
+					<span id="calloutInstructions"></span>
+					<img id="example" src="example.png" /> 
+				</div>[?]
+			</a>
+		</span>
+	</div>
+	<div id="qrcode"></div>
+	<form name="codeInput" action="">
+		<input type="TEXT" id="codeField" name="inputCode" />
+		<input type="button" id="sendButton" name="sendCode">
+		<img id="spinningwheel" src="spinningwheel.gif" />
+	</form>
+	<div id="note"></div>
+	<div id="result"></div>
+	<div id="ready"></div>
+	<script src="showQR.js"></script>
+</body>
+</html>

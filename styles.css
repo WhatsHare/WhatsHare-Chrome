@@ -1,0 +1,138 @@
+/*
+ * styles.css
+ * Copyright 2013 Michele Bonazza <emmepuntobi@gmail.com>
+ *
+ * This file is part of WhatsHare.
+ *
+ *   WhatsHare is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   (at your option) any later version.
+ *
+ *   WhatsHare is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License
+ *   along with WhatsHare.  If not, see <http://www.gnu.org/licenses/>.
+*/
+body {
+    background: #f7f7f7;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 2.75em auto;
+    width: 65%;
+}
+
+#logo {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32pt;
+    font-weight: 600;
+    letter-spacing: -3px;
+    margin-left: -0.8em;
+}
+
+#logo img {
+    vertical-align: middle;
+    margin-right: 0.25em;
+}
+
+#qrcode, form, #logo, #message, #result, #note {
+    text-align: center;
+}
+
+#message, form {
+    margin: 2em;
+}
+
+#spinningwheel {
+    vertical-align: middle;
+    display: none;
+}
+
+#result, #ready {
+    font-size: 110%;
+}
+
+#ready {
+    margin-top: 2em;
+    display: none;
+    text-align: center;
+}
+
+a.callout {
+    outline: none;
+    text-decoration: none;
+    text-align: left;
+    color: #00F;
+}
+
+a.callout strong {
+    line-height: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a.callout:hover {
+    text-decoration: none;
+    text-outline: none;
+    color: #F06;
+}
+a.callout:hover img {
+    text-decoration: none;
+    text-outline: none;
+    border: none;
+}
+
+a.callout img {
+    border: none;
+}
+a.callout div {
+    z-index: 10;
+    display: none;
+    padding: 15px 15px;
+    margin-top: -30px;
+    margin-left: 2.2em;
+    width: 280px;
+    line-height: 16px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-box-shadow: 6px 6px 10px #CCC;
+    -webkit-box-shadow: 6px 6px 10px #CCC;
+    box-shadow: 6px 6px 10px #CCC;
+    font-size: .8em;
+}
+
+a.callout:hover div {
+    display: inline;
+    position: absolute;
+    color: #111;
+    border: 1px solid #DCA;
+    background: #fffAF0;
+}
+
+a.callout:hover li{
+    list-style:none;
+}
+
+.arrow{
+    z-index: 20;
+    position: absolute;
+    top: 30px;
+    border: 0;
+    left: -12px;
+    background-color: transparent;
+}
+
+#example {
+    width: 250px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calloutInstructions {
+    display: block;
+}

@@ -1,0 +1,17 @@
+{
+   "background": {
+      "scripts": [ "jquery.min.js", "background.js" ]
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "icon.png"
+   },
+   "manifest_version": 2,
+   "name": "WhatsHare",
+   "options_page": "qr.html",
+   "permissions": [ "contextMenus", "tabs", "https://android.googleapis.com/gcm/*", "https://www.googleapis.com/urlshortener/*", "storage", "notifications", "pushMessaging" ],
+   "version": "1.2.8",
+   "web_accessible_resources": [ "icon.png", "alert.png", "qr.html" ]
+}
