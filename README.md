@@ -13,3 +13,9 @@ To share a link, right-click on it, select "WhatsHare" from the context menu, an
 To share text, select it and right click on it.
 
 To share a link to the page that you're currently viewing, right-click anywhere on the page (but not on a link or image).
+
+License
+-------
+
+All code is released under the GPLv3.
+
